@@ -1,9 +1,27 @@
 # Credit_Risk_Analysis
 
 ## Overview
-This analysis uses machine learning to predict credit risk. Using different techniques and models, we can assess the potential risk based on the outcomes of the models.
+This analysis uses machine learning to predict credit risk. Using the imbalanced-learn, imblearn.ensemble, and scikit-learn libraries, this project evaluates six machine learning models by using resampling to determine which is better at predicting credit risk. The algorithms used are highlighted below:
+
+### Oversampling
+- RandomOverSampler
+- SMOTE
+
+### Undersampling
+- ClusterCentroids
+
+### Combinatorial
+- SMOTTEEN
+
+### Ensemble Classifiers
+- BalancedRandomForestClassifier
+- EasyEnsembleClassifier
 
 ## Results
+
+### Oversampling using RandomOverSampler and SMOTE algorithms
+
+### Undersampling using ClusterCentroids
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
 
