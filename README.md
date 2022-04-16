@@ -72,4 +72,4 @@ This analysis uses machine learning to predict credit risk. Using the imbalanced
 
 ## Summary
 
-Based on the six models used, the EasyEnsembleClassifier is by far most accurate with an accuracy percentage of 93.2% and precision of 9%, therefore would be recommended for use in assessing credit risk. The least recommended would have to be the ClusterCentroid as the results are far from accurate with a percentage of 54.4% accuracy and 1% precision.
+Based on the six models used, the EasyEnsembleClassifier is by far most accurate with an accuracy percentage of 93.2%, precision of 9% for high risk and 100% for low risk, and a recall of 92% for high risk and 94% for low risk. Though the precision is still low, it is much better at classifying fraudulent loan applications, therefore would be recommended for use in assessing credit risk.
